@@ -1,10 +1,9 @@
 function printSum(x) {
   var sum = 0;
   for(i=0;i<=x;i++){
-    y = sum+i;
     sum = sum+i;
     console.log(i);
-    console.log(y);
+    console.log(sum);
   }
 
 
